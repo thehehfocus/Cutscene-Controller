@@ -1,7 +1,7 @@
 local Controller = {}
 type Controller = typeof(Controller)
 
-local Signal = require(game.ReplicatedStorage.Packages.Signal)
+local Signal = require("./SignalDependency")
 
 Controller._ctsFolder = script.Cutscenes
 Controller._ctsCache = {}
